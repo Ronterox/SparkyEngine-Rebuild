@@ -1,4 +1,5 @@
 #include "src/graphics/window.h"
+#include "src/debug/logSystem.h"
 #include <iostream>
 
 inline void pause()
@@ -22,14 +23,26 @@ int main()
     while (!window.closed())
     {
         window.clear();
-#if 0
+        double x, y;
+        window.getMousePosition(x, y);
+        LOG("[" << x << ", " << y << "]");
+
+
+        if(window.isKeyPressed(GLFW_KEY_A))
+        {
+            LOG("Is pressed!!");
+        }
+        if(window.isButtonPressed(GLFW_MOUSE_BUTTON_LEFT))
+        {
+            LOG("Mouse pressed!!!");
+        }
+
         glBegin(GL_QUADS);
         glVertex2d(-0.5f, -0.5f);
         glVertex2d(-0.5f, 0.5f);
         glVertex2d(0.5f, 0.5f);
         glVertex2d(0.5f, -0.5f);
         glEnd();
-#endif
 
         glDrawArrays(GL_ARRAY_BUFFER, 0, 6);
         window.update();
