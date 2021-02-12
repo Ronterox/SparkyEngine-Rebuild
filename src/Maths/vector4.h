@@ -28,42 +28,42 @@ namespace Sparky::Maths
             return ostream;
         }
 
-        friend Vector4 &operator+(Vector4 leftVect, const Vector4 &rightVect)
+        friend Vector4 operator+(Vector4 leftVect, const Vector4 &rightVect)
         {
             return leftVect.add(rightVect);
         }
 
-        friend Vector4 &operator-(Vector4 leftVect, const Vector4 &rightVect)
+        friend Vector4 operator-(Vector4 leftVect, const Vector4 &rightVect)
         {
             return leftVect.subtract(rightVect);
         }
 
-        friend Vector4 &operator*(Vector4 leftVect, const Vector4 &rightVect)
+        friend Vector4 operator*(Vector4 leftVect, const Vector4 &rightVect)
         {
             return leftVect.multiply(rightVect);
         }
 
-        friend Vector4 &operator/(Vector4 leftVect, const Vector4 &rightVect)
+        friend Vector4 operator/(Vector4 leftVect, const Vector4 &rightVect)
         {
             return leftVect.divide(rightVect);
         }
 
-        friend Vector4 &operator+=(Vector4 leftVect, const Vector4 &rightVect)
+        friend Vector4 operator+=(Vector4 leftVect, const Vector4 &rightVect)
         {
             return leftVect.add(rightVect);
         }
 
-        friend Vector4 &operator-=(Vector4 leftVect, const Vector4 &rightVect)
+        friend Vector4 operator-=(Vector4 leftVect, const Vector4 &rightVect)
         {
             return leftVect.subtract(rightVect);
         }
 
-        friend Vector4 &operator*=(Vector4 leftVect, const Vector4 &rightVect)
+        friend Vector4 operator*=(Vector4 leftVect, const Vector4 &rightVect)
         {
             return leftVect.multiply(rightVect);
         }
 
-        friend Vector4 &operator/=(Vector4 leftVect, const Vector4 &rightVect)
+        friend Vector4 operator/=(Vector4 leftVect, const Vector4 &rightVect)
         {
             return leftVect.divide(rightVect);
         }
