@@ -6,27 +6,17 @@
 
 #IncludeRegexTransform: 
 
-../../../src/debug/logSystem.h
+/home/rontero/Documents/CLionProjects/Sparky/src/Debug/logSystem.h
 
-/home/rontero/Documents/CLionProjects/Sparky/main.cpp
-src/graphics/window.h
-/home/rontero/Documents/CLionProjects/Sparky/src/graphics/window.h
-src/debug/logSystem.h
-/home/rontero/Documents/CLionProjects/Sparky/src/debug/logSystem.h
-iostream
--
-
-/home/rontero/Documents/CLionProjects/Sparky/src/debug/logSystem.h
-
-/home/rontero/Documents/CLionProjects/Sparky/src/graphics/window.cpp
+/home/rontero/Documents/CLionProjects/Sparky/src/Graphics/window.cpp
 window.h
-/home/rontero/Documents/CLionProjects/Sparky/src/graphics/window.h
+/home/rontero/Documents/CLionProjects/Sparky/src/Graphics/window.h
 iostream
 -
-src/debug/logSystem.h
-/home/rontero/Documents/CLionProjects/Sparky/src/graphics/src/debug/logSystem.h
+../Debug/logSystem.h
+/home/rontero/Documents/CLionProjects/Sparky/src/Debug/logSystem.h
 
-/home/rontero/Documents/CLionProjects/Sparky/src/graphics/window.h
+/home/rontero/Documents/CLionProjects/Sparky/src/Graphics/window.h
 GL/glew.h
 -
 GLFW/glfw3.h

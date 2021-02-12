@@ -1,6 +1,8 @@
 #include "window.h"
 #include <iostream>
-#include "src/Debug/logSystem.h"
+#include "../Debug/logSystem.h"
+
+//TODO: Not use relative like that
 
 namespace Sparky::Graphics
 {
