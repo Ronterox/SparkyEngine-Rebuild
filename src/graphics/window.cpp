@@ -4,13 +4,35 @@
 
 namespace Sparky::Graphics
 {
-    void window_resize(GLFWwindow *window, int width, int height);
+#pragma region WINDOW_CALLBACKS
 
-    void key_callback(GLFWwindow *window, int key, int scancode, int action, int mods);
+    void window_resize_callback(GLFWwindow *window, int width, int height)
+    {
+        glViewport(0, 0, width, height);
+    }
 
-    void mouse_button_callback(GLFWwindow *window, int button, int action, int mods);
+    void key_callback(GLFWwindow *window, int key, int scancode, int action, int mods)
+    {
+        auto *win = (Window *) glfwGetWindowUserPointer(window);
+        win->m_Keys[key] = action != GLFW_RELEASE;
+    }
 
-    void cursor_position_callback(GLFWwindow *window, double xpos, double ypos);
+    void mouse_button_callback(GLFWwindow *window, int button, int action, int mods)
+    {
+        auto *win = (Window *) glfwGetWindowUserPointer(window);
+        win->m_MouseButtons[button] = action != GLFW_RELEASE;
+    }
+
+    void cursor_position_callback(GLFWwindow *window, double xpos, double ypos)
+    {
+        auto *win = (Window *) glfwGetWindowUserPointer(window);
+        win->m_MouseX = xpos;
+        win->m_MouseY = ypos;
+    }
+
+#pragma endregion
+
+#pragma region WINDOW_INIT
 
     Window::Window(const char *title, int width, int height)
     {
@@ -46,7 +68,7 @@ namespace Sparky::Graphics
         glfwSetWindowUserPointer(m_Window, this);
 
         //Callbacks
-        glfwSetWindowSizeCallback(m_Window, window_resize);
+        glfwSetWindowSizeCallback(m_Window, window_resize_callback);
         glfwSetKeyCallback(m_Window, key_callback);
         glfwSetMouseButtonCallback(m_Window, mouse_button_callback);
         glfwSetCursorPosCallback(m_Window, cursor_position_callback);
@@ -59,6 +81,8 @@ namespace Sparky::Graphics
         LOG("OpenGl: " << glGetString(GL_VERSION));
         return true;
     }
+
+#pragma endregion
 
     void Window::update()
     {
@@ -76,17 +100,6 @@ namespace Sparky::Graphics
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     }
 
-    void window_resize(GLFWwindow *window, int width, int height)
-    {
-        glViewport(0, 0, width, height);
-    }
-
-    void key_callback(GLFWwindow *window, int key, int scancode, int action, int mods)
-    {
-        auto *win = (Window *) glfwGetWindowUserPointer(window);
-        win->m_Keys[key] = action != GLFW_RELEASE;
-    }
-
     bool Window::isKeyPressed(unsigned int keycode)
     {
         return keycode <= MAX_KEYS && m_Keys[keycode];
@@ -102,18 +115,4 @@ namespace Sparky::Graphics
         x = m_MouseX;
         y = m_MouseY;
     }
-
-    void mouse_button_callback(GLFWwindow *window, int button, int action, int mods)
-    {
-        auto *win = (Window *) glfwGetWindowUserPointer(window);
-        win->m_MouseButtons[button] = action != GLFW_RELEASE;
-    }
-
-    void cursor_position_callback(GLFWwindow *window, double xpos, double ypos)
-    {
-        auto *win = (Window *) glfwGetWindowUserPointer(window);
-        win->m_MouseX = xpos;
-        win->m_MouseY = ypos;
-    }
-
 }
