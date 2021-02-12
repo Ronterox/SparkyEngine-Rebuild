@@ -90,32 +90,47 @@ CMakeFiles/Sparky.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sparky.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rontero/Documents/CLionProjects/Sparky/main.cpp -o CMakeFiles/Sparky.dir/main.cpp.s
 
-CMakeFiles/Sparky.dir/src/graphics/window.cpp.o: CMakeFiles/Sparky.dir/flags.make
-CMakeFiles/Sparky.dir/src/graphics/window.cpp.o: ../../../src/graphics/window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rontero/Documents/CLionProjects/Sparky/Output/bin/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Sparky.dir/src/graphics/window.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sparky.dir/src/graphics/window.cpp.o -c /home/rontero/Documents/CLionProjects/Sparky/src/graphics/window.cpp
+CMakeFiles/Sparky.dir/src/Graphics/window.cpp.o: CMakeFiles/Sparky.dir/flags.make
+CMakeFiles/Sparky.dir/src/Graphics/window.cpp.o: ../../../src/Graphics/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rontero/Documents/CLionProjects/Sparky/Output/bin/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Sparky.dir/src/Graphics/window.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sparky.dir/src/Graphics/window.cpp.o -c /home/rontero/Documents/CLionProjects/Sparky/src/Graphics/window.cpp
 
-CMakeFiles/Sparky.dir/src/graphics/window.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sparky.dir/src/graphics/window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rontero/Documents/CLionProjects/Sparky/src/graphics/window.cpp > CMakeFiles/Sparky.dir/src/graphics/window.cpp.i
+CMakeFiles/Sparky.dir/src/Graphics/window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sparky.dir/src/Graphics/window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rontero/Documents/CLionProjects/Sparky/src/Graphics/window.cpp > CMakeFiles/Sparky.dir/src/Graphics/window.cpp.i
 
-CMakeFiles/Sparky.dir/src/graphics/window.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sparky.dir/src/graphics/window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rontero/Documents/CLionProjects/Sparky/src/graphics/window.cpp -o CMakeFiles/Sparky.dir/src/graphics/window.cpp.s
+CMakeFiles/Sparky.dir/src/Graphics/window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sparky.dir/src/Graphics/window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rontero/Documents/CLionProjects/Sparky/src/Graphics/window.cpp -o CMakeFiles/Sparky.dir/src/Graphics/window.cpp.s
+
+CMakeFiles/Sparky.dir/src/Maths/vector2.cpp.o: CMakeFiles/Sparky.dir/flags.make
+CMakeFiles/Sparky.dir/src/Maths/vector2.cpp.o: ../../../src/Maths/vector2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rontero/Documents/CLionProjects/Sparky/Output/bin/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Sparky.dir/src/Maths/vector2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sparky.dir/src/Maths/vector2.cpp.o -c /home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector2.cpp
+
+CMakeFiles/Sparky.dir/src/Maths/vector2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sparky.dir/src/Maths/vector2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector2.cpp > CMakeFiles/Sparky.dir/src/Maths/vector2.cpp.i
+
+CMakeFiles/Sparky.dir/src/Maths/vector2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sparky.dir/src/Maths/vector2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector2.cpp -o CMakeFiles/Sparky.dir/src/Maths/vector2.cpp.s
 
 # Object files for target Sparky
 Sparky_OBJECTS = \
 "CMakeFiles/Sparky.dir/main.cpp.o" \
-"CMakeFiles/Sparky.dir/src/graphics/window.cpp.o"
+"CMakeFiles/Sparky.dir/src/Graphics/window.cpp.o" \
+"CMakeFiles/Sparky.dir/src/Maths/vector2.cpp.o"
 
 # External object files for target Sparky
 Sparky_EXTERNAL_OBJECTS =
 
 Sparky: CMakeFiles/Sparky.dir/main.cpp.o
-Sparky: CMakeFiles/Sparky.dir/src/graphics/window.cpp.o
+Sparky: CMakeFiles/Sparky.dir/src/Graphics/window.cpp.o
+Sparky: CMakeFiles/Sparky.dir/src/Maths/vector2.cpp.o
 Sparky: CMakeFiles/Sparky.dir/build.make
 Sparky: CMakeFiles/Sparky.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rontero/Documents/CLionProjects/Sparky/Output/bin/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Sparky"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rontero/Documents/CLionProjects/Sparky/Output/bin/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Sparky"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Sparky.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

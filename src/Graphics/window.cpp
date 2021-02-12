@@ -1,6 +1,6 @@
 #include "window.h"
 #include <iostream>
-#include "src/debug/logSystem.h"
+#include "src/Debug/logSystem.h"
 
 namespace Sparky::Graphics
 {

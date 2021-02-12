@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Sparky.dir/main.cpp.o"
-  "CMakeFiles/Sparky.dir/src/graphics/window.cpp.o"
+  "CMakeFiles/Sparky.dir/src/Graphics/window.cpp.o"
+  "CMakeFiles/Sparky.dir/src/Maths/vector2.cpp.o"
   "Sparky"
   "Sparky.pdb"
 )

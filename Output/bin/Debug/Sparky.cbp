@@ -87,13 +87,22 @@
 		<Unit filename="/home/rontero/Documents/CLionProjects/Sparky/main.cpp">
 			<Option target="Sparky"/>
 		</Unit>
-		<Unit filename="/home/rontero/Documents/CLionProjects/Sparky/src/debug/logSystem.h">
+		<Unit filename="/home/rontero/Documents/CLionProjects/Sparky/src/Debug/logSystem.h">
 			<Option target="Sparky"/>
 		</Unit>
-		<Unit filename="/home/rontero/Documents/CLionProjects/Sparky/src/graphics/window.cpp">
+		<Unit filename="/home/rontero/Documents/CLionProjects/Sparky/src/Debug/utility_methods.h">
 			<Option target="Sparky"/>
 		</Unit>
-		<Unit filename="/home/rontero/Documents/CLionProjects/Sparky/src/graphics/window.h">
+		<Unit filename="/home/rontero/Documents/CLionProjects/Sparky/src/Graphics/window.cpp">
+			<Option target="Sparky"/>
+		</Unit>
+		<Unit filename="/home/rontero/Documents/CLionProjects/Sparky/src/Graphics/window.h">
+			<Option target="Sparky"/>
+		</Unit>
+		<Unit filename="/home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector2.cpp">
+			<Option target="Sparky"/>
+		</Unit>
+		<Unit filename="/home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector2.h">
 			<Option target="Sparky"/>
 		</Unit>
 		<Unit filename="/home/rontero/Documents/CLionProjects/Sparky/CMakeLists.txt">

@@ -5,7 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/rontero/Documents/CLionProjects/Sparky/main.cpp" "/home/rontero/Documents/CLionProjects/Sparky/Output/bin/Debug/CMakeFiles/Sparky.dir/main.cpp.o"
-  "/home/rontero/Documents/CLionProjects/Sparky/src/graphics/window.cpp" "/home/rontero/Documents/CLionProjects/Sparky/Output/bin/Debug/CMakeFiles/Sparky.dir/src/graphics/window.cpp.o"
+  "/home/rontero/Documents/CLionProjects/Sparky/src/Graphics/window.cpp" "/home/rontero/Documents/CLionProjects/Sparky/Output/bin/Debug/CMakeFiles/Sparky.dir/src/Graphics/window.cpp.o"
+  "/home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector2.cpp" "/home/rontero/Documents/CLionProjects/Sparky/Output/bin/Debug/CMakeFiles/Sparky.dir/src/Maths/vector2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

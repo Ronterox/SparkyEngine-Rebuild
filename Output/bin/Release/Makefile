@@ -170,32 +170,59 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sparky.dir/build.make CMakeFiles/Sparky.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/graphics/window.o: src/graphics/window.cpp.o
+src/Graphics/window.o: src/Graphics/window.cpp.o
 
-.PHONY : src/graphics/window.o
+.PHONY : src/Graphics/window.o
 
 # target to build an object file
-src/graphics/window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sparky.dir/build.make CMakeFiles/Sparky.dir/src/graphics/window.cpp.o
-.PHONY : src/graphics/window.cpp.o
+src/Graphics/window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sparky.dir/build.make CMakeFiles/Sparky.dir/src/Graphics/window.cpp.o
+.PHONY : src/Graphics/window.cpp.o
 
-src/graphics/window.i: src/graphics/window.cpp.i
+src/Graphics/window.i: src/Graphics/window.cpp.i
 
-.PHONY : src/graphics/window.i
+.PHONY : src/Graphics/window.i
 
 # target to preprocess a source file
-src/graphics/window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sparky.dir/build.make CMakeFiles/Sparky.dir/src/graphics/window.cpp.i
-.PHONY : src/graphics/window.cpp.i
+src/Graphics/window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sparky.dir/build.make CMakeFiles/Sparky.dir/src/Graphics/window.cpp.i
+.PHONY : src/Graphics/window.cpp.i
 
-src/graphics/window.s: src/graphics/window.cpp.s
+src/Graphics/window.s: src/Graphics/window.cpp.s
 
-.PHONY : src/graphics/window.s
+.PHONY : src/Graphics/window.s
 
 # target to generate assembly for a file
-src/graphics/window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sparky.dir/build.make CMakeFiles/Sparky.dir/src/graphics/window.cpp.s
-.PHONY : src/graphics/window.cpp.s
+src/Graphics/window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sparky.dir/build.make CMakeFiles/Sparky.dir/src/Graphics/window.cpp.s
+.PHONY : src/Graphics/window.cpp.s
+
+src/Maths/vector2.o: src/Maths/vector2.cpp.o
+
+.PHONY : src/Maths/vector2.o
+
+# target to build an object file
+src/Maths/vector2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sparky.dir/build.make CMakeFiles/Sparky.dir/src/Maths/vector2.cpp.o
+.PHONY : src/Maths/vector2.cpp.o
+
+src/Maths/vector2.i: src/Maths/vector2.cpp.i
+
+.PHONY : src/Maths/vector2.i
+
+# target to preprocess a source file
+src/Maths/vector2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sparky.dir/build.make CMakeFiles/Sparky.dir/src/Maths/vector2.cpp.i
+.PHONY : src/Maths/vector2.cpp.i
+
+src/Maths/vector2.s: src/Maths/vector2.cpp.s
+
+.PHONY : src/Maths/vector2.s
+
+# target to generate assembly for a file
+src/Maths/vector2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sparky.dir/build.make CMakeFiles/Sparky.dir/src/Maths/vector2.cpp.s
+.PHONY : src/Maths/vector2.cpp.s
 
 # Help Target
 help:
@@ -209,9 +236,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/graphics/window.o"
-	@echo "... src/graphics/window.i"
-	@echo "... src/graphics/window.s"
+	@echo "... src/Graphics/window.o"
+	@echo "... src/Graphics/window.i"
+	@echo "... src/Graphics/window.s"
+	@echo "... src/Maths/vector2.o"
+	@echo "... src/Maths/vector2.i"
+	@echo "... src/Maths/vector2.s"
 .PHONY : help
 
 

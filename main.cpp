@@ -1,12 +1,6 @@
-#include "src/graphics/window.h"
-#include "src/debug/logSystem.h"
+#include "src/Graphics/window.h"
+#include "src/Debug/logSystem.h"
 #include <iostream>
-
-inline void pause()
-{
-    std::cout << "Press enter to continue..." << std::endl;
-    std::cin.get();
-}
 
 int main()
 {
@@ -47,7 +41,5 @@ int main()
         glDrawArrays(GL_ARRAY_BUFFER, 0, 6);
         window.update();
     }
-
-    //pause();
     return 0;
 }
