@@ -1,0 +1,3 @@
+/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/CMakeFiles/Sparky.dir

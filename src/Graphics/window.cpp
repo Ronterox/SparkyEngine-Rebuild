@@ -2,8 +2,6 @@
 #include <iostream>
 #include "../Debug/logSystem.h"
 
-//TODO: Not use relative like that
-
 namespace Sparky::Graphics
 {
 #pragma region WINDOW_CALLBACKS

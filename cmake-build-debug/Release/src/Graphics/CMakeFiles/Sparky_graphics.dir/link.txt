@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSparky_graphics.a  CMakeFiles/Sparky_graphics.dir/window.cpp.o
+/usr/bin/ranlib libSparky_graphics.a

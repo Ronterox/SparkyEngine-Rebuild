@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/Sparky.dir/main.cpp.o  -o Sparky  src/Graphics/libSparky_graphics.a src/Maths/libSparky_maths.a -lglfw -lglut -lGLEW -lGLU -lGL 

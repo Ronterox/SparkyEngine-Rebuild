@@ -1,0 +1,9 @@
+/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Release/CMakeFiles/rebuild_cache.dir
+/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Release/CMakeFiles/edit_cache.dir
+/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Release/CMakeFiles/Sparky.dir
+/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Release/src/Graphics/CMakeFiles/rebuild_cache.dir
+/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Release/src/Graphics/CMakeFiles/edit_cache.dir
+/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Release/src/Graphics/CMakeFiles/Sparky_graphics.dir
+/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Release/src/Maths/CMakeFiles/rebuild_cache.dir
+/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Release/src/Maths/CMakeFiles/edit_cache.dir
+/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Release/src/Maths/CMakeFiles/Sparky_maths.dir

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector2.cpp
+vector2.h
+/home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector2.h
+
+/home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector2.h
+iostream
+-
+
+/home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector3.cpp
+vector3.h
+/home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector3.h
+
+/home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector3.h
+iostream
+-
+
+/home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector4.cpp
+vector4.h
+/home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector4.h
+
+/home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector4.h
+iostream
+-
+

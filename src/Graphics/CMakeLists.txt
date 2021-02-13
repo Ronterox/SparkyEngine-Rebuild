@@ -1,0 +1,5 @@
+file(GLOB_RECURSE SOURCES LIST_DIRECTORIES true *.h *.cpp *.c)
+
+set(SOURCES ${SOURCES})
+
+add_library(${CMAKE_PROJECT_NAME}_graphics STATIC ${SOURCES})

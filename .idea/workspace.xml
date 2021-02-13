@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Sparky" targetName="Sparky_graphics" />
+      <config projectName="Sparky" targetName="Sparky_maths" />
+      <config projectName="Sparky" targetName="Sparky" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_DIR="cmake-build-debug/Debug" ENABLED="true" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" GENERATION_DIR="cmake-build-debug/Release" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8dc26c04-a8f9-4686-a3fe-4374f42e404d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Debug/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphics/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Maths/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/3.17.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/Sparky.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/Sparky.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/Sparky.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/Sparky.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/Sparky.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/Sparky.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/Sparky.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/Sparky.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/Sparky.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/Sparky.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/Sparky.dir/src/Graphics/window.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/Sparky.dir/src/Maths/vector2.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/Sparky" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/Sparky.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/3.17.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/Sparky.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/Sparky.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/Sparky.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/Sparky.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/Sparky.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/Sparky.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/Sparky.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/Sparky.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/bin/Release/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphics/window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphics/window.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oRUiynbytJmpwSyMkaIAdsf9aS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cmake-build-debug/Debug" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RunManager" selected="CMake Application.Sparky">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sparky" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sparky" TARGET_NAME="Sparky" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sparky" RUN_TARGET_NAME="Sparky">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sparky_graphics" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sparky" TARGET_NAME="Sparky_graphics" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sparky_maths" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sparky" TARGET_NAME="Sparky_maths" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Sparky" />
+      <item itemvalue="CMake Application.Sparky_graphics" />
+      <item itemvalue="CMake Application.Sparky_maths" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8dc26c04-a8f9-4686-a3fe-4374f42e404d" name="Default Changelist" comment="" />
+      <created>1613249027322</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613249027322</updated>
+      <workItem from="1613249028382" duration="1397000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

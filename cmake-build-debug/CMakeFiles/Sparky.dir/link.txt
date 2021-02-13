@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Sparky.dir/main.cpp.o  -o Sparky  -lglfw -lglut -lGLEW -lGLU -lGL 

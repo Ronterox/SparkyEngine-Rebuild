@@ -1,3 +1,0 @@
-/home/rontero/Documents/CLionProjects/Sparky/Output/bin/Release/CMakeFiles/rebuild_cache.dir
-/home/rontero/Documents/CLionProjects/Sparky/Output/bin/Release/CMakeFiles/edit_cache.dir
-/home/rontero/Documents/CLionProjects/Sparky/Output/bin/Release/CMakeFiles/Sparky.dir

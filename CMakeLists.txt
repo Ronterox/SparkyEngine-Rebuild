@@ -3,13 +3,20 @@ project(Sparky)
 
 set(CMAKE_CXX_STANDARD 20)
 
+# Variable Name is SOURCE_FILES
 set(SOURCE_FILES ${PROJECT_SOURCE_DIR}/src)
 
-include_directories(SOURCE_FILES)
+# We create Executable
+add_executable(${PROJECT_NAME} main.cpp)
 
-#TODO: Do this add_executable dinamically
+# Add subdirectories with cmake list to call their cmakeList
+add_subdirectory(${SOURCE_FILES}/Graphics)
+add_subdirectory(${SOURCE_FILES}/Maths)
 
-add_executable(${PROJECT_NAME} main.cpp src/Graphics/window.cpp src/Graphics/window.h src/Debug/logSystem.h src/Maths/vector2.cpp src/Maths/vector2.h src/Debug/utility_methods.h src/Maths/maths.h src/Debug/logSystem.h)
-#add_executable(${PROJECT_NAME} ${SOURCE_FILES})
+# Link libraries Created by them
+target_link_libraries(${PROJECT_NAME} PUBLIC ${PROJECT_NAME}_graphics)
+target_link_libraries(${PROJECT_NAME} PUBLIC ${PROJECT_NAME}_maths)
 
-target_link_libraries(${PROJECT_NAME} -lglfw -lglut -lGLEW -lGLU -lGL)
+# Link libraries on my system
+target_link_libraries(${PROJECT_NAME} PUBLIC -lglfw -lglut -lGLEW -lGLU -lGL)
+
