@@ -77,9 +77,22 @@ include src/Maths/CMakeFiles/Sparky_maths.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/Maths/CMakeFiles/Sparky_maths.dir/flags.make
 
+src/Maths/CMakeFiles/Sparky_maths.dir/matrix4.cpp.o: src/Maths/CMakeFiles/Sparky_maths.dir/flags.make
+src/Maths/CMakeFiles/Sparky_maths.dir/matrix4.cpp.o: ../../src/Maths/matrix4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Maths/CMakeFiles/Sparky_maths.dir/matrix4.cpp.o"
+	cd /home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Debug/src/Maths && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sparky_maths.dir/matrix4.cpp.o -c /home/rontero/Documents/CLionProjects/Sparky/src/Maths/matrix4.cpp
+
+src/Maths/CMakeFiles/Sparky_maths.dir/matrix4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sparky_maths.dir/matrix4.cpp.i"
+	cd /home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Debug/src/Maths && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rontero/Documents/CLionProjects/Sparky/src/Maths/matrix4.cpp > CMakeFiles/Sparky_maths.dir/matrix4.cpp.i
+
+src/Maths/CMakeFiles/Sparky_maths.dir/matrix4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sparky_maths.dir/matrix4.cpp.s"
+	cd /home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Debug/src/Maths && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rontero/Documents/CLionProjects/Sparky/src/Maths/matrix4.cpp -o CMakeFiles/Sparky_maths.dir/matrix4.cpp.s
+
 src/Maths/CMakeFiles/Sparky_maths.dir/vector2.cpp.o: src/Maths/CMakeFiles/Sparky_maths.dir/flags.make
 src/Maths/CMakeFiles/Sparky_maths.dir/vector2.cpp.o: ../../src/Maths/vector2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Maths/CMakeFiles/Sparky_maths.dir/vector2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Maths/CMakeFiles/Sparky_maths.dir/vector2.cpp.o"
 	cd /home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Debug/src/Maths && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sparky_maths.dir/vector2.cpp.o -c /home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector2.cpp
 
 src/Maths/CMakeFiles/Sparky_maths.dir/vector2.cpp.i: cmake_force
@@ -92,7 +105,7 @@ src/Maths/CMakeFiles/Sparky_maths.dir/vector2.cpp.s: cmake_force
 
 src/Maths/CMakeFiles/Sparky_maths.dir/vector3.cpp.o: src/Maths/CMakeFiles/Sparky_maths.dir/flags.make
 src/Maths/CMakeFiles/Sparky_maths.dir/vector3.cpp.o: ../../src/Maths/vector3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Maths/CMakeFiles/Sparky_maths.dir/vector3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/Maths/CMakeFiles/Sparky_maths.dir/vector3.cpp.o"
 	cd /home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Debug/src/Maths && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sparky_maths.dir/vector3.cpp.o -c /home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector3.cpp
 
 src/Maths/CMakeFiles/Sparky_maths.dir/vector3.cpp.i: cmake_force
@@ -105,7 +118,7 @@ src/Maths/CMakeFiles/Sparky_maths.dir/vector3.cpp.s: cmake_force
 
 src/Maths/CMakeFiles/Sparky_maths.dir/vector4.cpp.o: src/Maths/CMakeFiles/Sparky_maths.dir/flags.make
 src/Maths/CMakeFiles/Sparky_maths.dir/vector4.cpp.o: ../../src/Maths/vector4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/Maths/CMakeFiles/Sparky_maths.dir/vector4.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/Maths/CMakeFiles/Sparky_maths.dir/vector4.cpp.o"
 	cd /home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Debug/src/Maths && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sparky_maths.dir/vector4.cpp.o -c /home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector4.cpp
 
 src/Maths/CMakeFiles/Sparky_maths.dir/vector4.cpp.i: cmake_force
@@ -118,6 +131,7 @@ src/Maths/CMakeFiles/Sparky_maths.dir/vector4.cpp.s: cmake_force
 
 # Object files for target Sparky_maths
 Sparky_maths_OBJECTS = \
+"CMakeFiles/Sparky_maths.dir/matrix4.cpp.o" \
 "CMakeFiles/Sparky_maths.dir/vector2.cpp.o" \
 "CMakeFiles/Sparky_maths.dir/vector3.cpp.o" \
 "CMakeFiles/Sparky_maths.dir/vector4.cpp.o"
@@ -125,12 +139,13 @@ Sparky_maths_OBJECTS = \
 # External object files for target Sparky_maths
 Sparky_maths_EXTERNAL_OBJECTS =
 
+src/Maths/libSparky_maths.a: src/Maths/CMakeFiles/Sparky_maths.dir/matrix4.cpp.o
 src/Maths/libSparky_maths.a: src/Maths/CMakeFiles/Sparky_maths.dir/vector2.cpp.o
 src/Maths/libSparky_maths.a: src/Maths/CMakeFiles/Sparky_maths.dir/vector3.cpp.o
 src/Maths/libSparky_maths.a: src/Maths/CMakeFiles/Sparky_maths.dir/vector4.cpp.o
 src/Maths/libSparky_maths.a: src/Maths/CMakeFiles/Sparky_maths.dir/build.make
 src/Maths/libSparky_maths.a: src/Maths/CMakeFiles/Sparky_maths.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libSparky_maths.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libSparky_maths.a"
 	cd /home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Debug/src/Maths && $(CMAKE_COMMAND) -P CMakeFiles/Sparky_maths.dir/cmake_clean_target.cmake
 	cd /home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Debug/src/Maths && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Sparky_maths.dir/link.txt --verbose=$(VERBOSE)
 

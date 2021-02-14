@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Sparky_maths.dir/matrix4.cpp.o"
   "CMakeFiles/Sparky_maths.dir/vector2.cpp.o"
   "CMakeFiles/Sparky_maths.dir/vector3.cpp.o"
   "CMakeFiles/Sparky_maths.dir/vector4.cpp.o"

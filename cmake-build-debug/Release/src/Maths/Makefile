@@ -145,6 +145,33 @@ Sparky_maths/fast:
 	cd /home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Release && $(MAKE) $(MAKESILENT) -f src/Maths/CMakeFiles/Sparky_maths.dir/build.make src/Maths/CMakeFiles/Sparky_maths.dir/build
 .PHONY : Sparky_maths/fast
 
+matrix4.o: matrix4.cpp.o
+
+.PHONY : matrix4.o
+
+# target to build an object file
+matrix4.cpp.o:
+	cd /home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Release && $(MAKE) $(MAKESILENT) -f src/Maths/CMakeFiles/Sparky_maths.dir/build.make src/Maths/CMakeFiles/Sparky_maths.dir/matrix4.cpp.o
+.PHONY : matrix4.cpp.o
+
+matrix4.i: matrix4.cpp.i
+
+.PHONY : matrix4.i
+
+# target to preprocess a source file
+matrix4.cpp.i:
+	cd /home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Release && $(MAKE) $(MAKESILENT) -f src/Maths/CMakeFiles/Sparky_maths.dir/build.make src/Maths/CMakeFiles/Sparky_maths.dir/matrix4.cpp.i
+.PHONY : matrix4.cpp.i
+
+matrix4.s: matrix4.cpp.s
+
+.PHONY : matrix4.s
+
+# target to generate assembly for a file
+matrix4.cpp.s:
+	cd /home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Release && $(MAKE) $(MAKESILENT) -f src/Maths/CMakeFiles/Sparky_maths.dir/build.make src/Maths/CMakeFiles/Sparky_maths.dir/matrix4.cpp.s
+.PHONY : matrix4.cpp.s
+
 vector2.o: vector2.cpp.o
 
 .PHONY : vector2.o
@@ -235,6 +262,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Sparky_maths"
+	@echo "... matrix4.o"
+	@echo "... matrix4.i"
+	@echo "... matrix4.s"
 	@echo "... vector2.o"
 	@echo "... vector2.i"
 	@echo "... vector2.s"

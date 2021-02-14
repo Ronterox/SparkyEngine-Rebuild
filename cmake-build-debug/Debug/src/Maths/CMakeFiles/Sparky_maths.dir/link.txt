@@ -1,2 +1,2 @@
-/usr/bin/ar qc libSparky_maths.a  CMakeFiles/Sparky_maths.dir/vector2.cpp.o CMakeFiles/Sparky_maths.dir/vector3.cpp.o CMakeFiles/Sparky_maths.dir/vector4.cpp.o
+/usr/bin/ar qc libSparky_maths.a  CMakeFiles/Sparky_maths.dir/matrix4.cpp.o CMakeFiles/Sparky_maths.dir/vector2.cpp.o CMakeFiles/Sparky_maths.dir/vector3.cpp.o CMakeFiles/Sparky_maths.dir/vector4.cpp.o
 /usr/bin/ranlib libSparky_maths.a
