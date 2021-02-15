@@ -5,3 +5,8 @@ CMakeFiles/Sparky.dir/main.cpp.o
  /home/rontero/Documents/CLionProjects/Sparky/main.cpp
  /home/rontero/Documents/CLionProjects/Sparky/src/Debug/logSystem.h
  /home/rontero/Documents/CLionProjects/Sparky/src/Graphics/window.h
+ /home/rontero/Documents/CLionProjects/Sparky/src/Maths/maths.h
+ /home/rontero/Documents/CLionProjects/Sparky/src/Maths/matrix4.h
+ /home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector2.h
+ /home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector3.h
+ /home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector4.h

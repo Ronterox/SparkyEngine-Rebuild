@@ -1,10 +1,11 @@
 #include "src/Graphics/window.h"
 #include "src/Debug/logSystem.h"
-#include <iostream>
+#include "src/Maths/maths.h"
 
 int main()
 {
     using namespace Sparky::Graphics;
+    using namespace Sparky::Maths;
 
     Window window("FIRST WINDOW", 960, 640);
 
@@ -14,6 +15,9 @@ int main()
     glGenVertexArrays(1, &vao);
     glBindVertexArray(vao);
 
+    Matrix4 position = Matrix4::translation(Vector3(2.0f,3.0f,4.0f));
+    position *= Matrix4::identity();
+
     while (!window.closed())
     {
         window.clear();
@@ -21,14 +25,13 @@ int main()
         window.getMousePosition(x, y);
         LOG("[" << x << ", " << y << "]");
 
-
         if(window.isKeyPressed(GLFW_KEY_A))
         {
-            LOG("Is pressed!!");
+            //LOG("Is pressed!!");
         }
         if(window.isButtonPressed(GLFW_MOUSE_BUTTON_LEFT))
         {
-            LOG("Mouse pressed!!!");
+            //LOG("Mouse pressed!!!");
         }
 
         glBegin(GL_QUADS);

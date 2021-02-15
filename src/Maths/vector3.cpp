@@ -11,7 +11,7 @@ namespace Sparky::Maths
         z = .0f;
     }
 
-    Vector3::Vector3(float &x, float &y, float &z)
+    Vector3::Vector3(const float &x, const float &y, const float &z)
     {
         this->x = x;
         this->y = y;

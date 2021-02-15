@@ -8,7 +8,10 @@
 
 #include "matrix4.h"
 
-inline float toRadians(const float &degrees)
+namespace Sparky::Maths
 {
-    return degrees * (M_PI / 180);
+    inline float toRadians(const float &degrees)
+    {
+        return degrees * (M_PI / 180);
+    }
 }

@@ -31,8 +31,15 @@ namespace Sparky::Maths
 
 #pragma region MATRIX_OPERATORS
 
-        friend Matrix4 operator*(Matrix4 left, const Matrix4& right);
-        Matrix4 operator*=(Matrix4& other);
+        friend Matrix4 operator*(Matrix4 left, const Matrix4 &right)
+        {
+            return left.multiply(right);
+        }
+
+        Matrix4 &operator*=(const Matrix4 &other)
+        {
+            return multiply(other);
+        }
 
 #pragma endregion
     };

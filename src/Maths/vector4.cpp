@@ -12,7 +12,7 @@ namespace Sparky::Maths
         w = .0f;
     }
 
-    Vector4::Vector4(float &x, float &y, float &z, float &w)
+    Vector4::Vector4(const float &x, const float &y, const float &z, const float &w)
     {
         this->x = x;
         this->y = y;

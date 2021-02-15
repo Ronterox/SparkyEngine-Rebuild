@@ -6,25 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector2.cpp
+/home/rontero/Documents/CLionProjects/Sparky/src/Maths/maths.h
+cmath
+-
 vector2.h
 /home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector2.h
+vector3.h
+/home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector3.h
+vector4.h
+/home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector4.h
+matrix4.h
+/home/rontero/Documents/CLionProjects/Sparky/src/Maths/matrix4.h
+
+/home/rontero/Documents/CLionProjects/Sparky/src/Maths/matrix4.cpp
+matrix4.h
+/home/rontero/Documents/CLionProjects/Sparky/src/Maths/matrix4.h
+
+/home/rontero/Documents/CLionProjects/Sparky/src/Maths/matrix4.h
+maths.h
+/home/rontero/Documents/CLionProjects/Sparky/src/Maths/maths.h
 
 /home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector2.h
 iostream
 -
 
-/home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector3.cpp
-vector3.h
-/home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector3.h
-
 /home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector3.h
 iostream
 -
-
-/home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector4.cpp
-vector4.h
-/home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector4.h
 
 /home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector4.h
 iostream

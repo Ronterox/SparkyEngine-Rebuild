@@ -22,22 +22,12 @@ namespace Sparky::Maths
                 float sum = 0;
                 for (int k = 0; k < 4; ++k)
                 {
-                    sum += elements[i + j * 4] * other.elements[k + j * 4];
+                    sum += elements[j + k * 4] * other.elements[k + i * 4];
                 }
-                elements[i + j * 4] = sum;
+                elements[j + i * 4] = sum;
             }
         }
         return *this;
-    }
-
-    Matrix4 operator*(Matrix4 left, const Matrix4 &right)
-    {
-        return left.multiply(right);
-    }
-
-    Matrix4 Matrix4::operator*=(Matrix4 &other)
-    {
-        return multiply(other);
     }
 
     Matrix4 Matrix4::identity()
@@ -93,9 +83,20 @@ namespace Sparky::Maths
 
         float radAngle = toRadians(angle);
         float cos = cosf(radAngle);
-        float tan = tanf(radAngle);
+        float sin = sinf(radAngle);
+        float cosNo = 1.0f - cos;
 
-        result.elements[0] = cos * axis.x;
+        result.elements[0] = cos + cosNo * cosNo * axis.x;
+        result.elements[1] = axis.y * axis.x * cosNo + axis.z * sin;
+        result.elements[2] = axis.z * axis.x * cosNo - axis.y * sin;
+
+        result.elements[4] = axis.x * axis.y * cosNo - axis.z * sin;
+        result.elements[5] = cos + axis.y * cosNo * cosNo;
+        result.elements[6] = axis.z * axis.y * cosNo + axis.x * sin;
+
+        result.elements[8] = axis.x * axis.z * cosNo + axis.y * sin;
+        result.elements[9] = axis.y * axis.z * cosNo - axis.x * sin;
+        result.elements[10] = cos + axis.z * cosNo * cosNo;
 
         return result;
     }

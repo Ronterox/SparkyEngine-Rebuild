@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/rontero/Documents/CLionProjects/Sparky/src/Debug/logSystem.h
+iostream
+-
 
 /home/rontero/Documents/CLionProjects/Sparky/src/Graphics/window.cpp
 window.h

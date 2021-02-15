@@ -10,7 +10,7 @@ namespace Sparky::Maths
 
         Vector2();
 
-        Vector2(float &x, float &y);
+        Vector2(const float &x, const float &y);
 
         Vector2 &add(const Vector2 &other);
 
@@ -48,22 +48,22 @@ namespace Sparky::Maths
             return leftVect.divide(rightVect);
         }
 
-        friend Vector2 operator+=(Vector2 leftVect, const Vector2 &rightVect)
+        friend Vector2 &operator+=(Vector2 leftVect, const Vector2 &rightVect)
         {
             return leftVect.add(rightVect);
         }
 
-        friend Vector2 operator-=(Vector2 leftVect, const Vector2 &rightVect)
+        friend Vector2 &operator-=(Vector2 leftVect, const Vector2 &rightVect)
         {
             return leftVect.subtract(rightVect);
         }
 
-        friend Vector2 operator*=(Vector2 leftVect, const Vector2 &rightVect)
+        friend Vector2 &operator*=(Vector2 leftVect, const Vector2 &rightVect)
         {
             return leftVect.multiply(rightVect);
         }
 
-        friend Vector2 operator/=(Vector2 leftVect, const Vector2 &rightVect)
+        friend Vector2 &operator/=(Vector2 leftVect, const Vector2 &rightVect)
         {
             return leftVect.divide(rightVect);
         }
