@@ -6,7 +6,11 @@ namespace Sparky::Maths
 {
     struct Matrix4
     {
-        float elements[4 * 4];
+        union
+        {
+            float elements[4 * 4];
+            Vector4 columns[4];
+        };
 
         Matrix4();
 

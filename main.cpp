@@ -18,12 +18,15 @@ int main()
     Matrix4 position = Matrix4::translation(Vector3(2.0f,3.0f,4.0f));
     position *= Matrix4::identity();
 
+    LOG(&position.columns[4].x);
+    LOG(&position.elements[12]);
+
     while (!window.closed())
     {
         window.clear();
         double x, y;
         window.getMousePosition(x, y);
-        LOG("[" << x << ", " << y << "]");
+        //LOG("[" << x << ", " << y << "]");
 
         if(window.isKeyPressed(GLFW_KEY_A))
         {
