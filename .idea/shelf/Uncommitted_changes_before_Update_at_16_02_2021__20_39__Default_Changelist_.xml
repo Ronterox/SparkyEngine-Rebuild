@@ -1,0 +1,24 @@
+<changelist name="Uncommitted_changes_before_Update_at_16_02_2021,_20_39_[Default_Changelist]" date="1613504432095" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_02_2021,_20_39_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 16/02/2021, 20:39 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="cmake-build-debug/Debug/CMakeFiles/CMakeTmp/cmTC_83d51" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_02_2021,_20_39_[Default_Changelist]/cmTC_83d51" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="cmake-build-debug/Debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_83d51.dir/testCCompiler.c.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_02_2021,_20_39_[Default_Changelist]/testCCompiler.c.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="cmake-build-debug/Release/CMakeFiles/CMakeTmp/cmTC_c904e" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_02_2021,_20_39_[Default_Changelist]/cmTC_c904e" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="cmake-build-debug/Release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_c904e.dir/testCCompiler.c.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_02_2021,_20_39_[Default_Changelist]/testCCompiler.c1.o" />
+  </binary>
+</changelist>

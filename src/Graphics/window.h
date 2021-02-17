@@ -27,7 +27,7 @@ namespace Sparky::Graphics
 
         void update();
 
-        bool closed() const;
+        [[nodiscard]] bool closed() const;
 
         void clear() const;
 
@@ -42,14 +42,14 @@ namespace Sparky::Graphics
 
     public:
 
-        inline int getWidth() const { return m_Width; }
+        [[nodiscard]] inline int getWidth() const { return m_Width; }
 
-        inline int getHeight() const { return m_Height; }
+        [[nodiscard]] inline int getHeight() const { return m_Height; }
 
         bool isKeyPressed(unsigned int keycode);
 
         bool isButtonPressed(unsigned int button);
 
-        void getMousePosition(double &x, double &y);
+        void getMousePosition(double &x, double &y) const;
     };
 }

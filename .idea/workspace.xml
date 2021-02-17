@@ -15,14 +15,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dc26c04-a8f9-4686-a3fe-4374f42e404d" name="Default Changelist" comment="Created Rotation matrix, and fixed vectors operator with itself reference">
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/CMakeTmp/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/CMakeTmp/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/CMakeTmp/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/CMakeTmp/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_83d51.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_83d51.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_83d51.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_83d51.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_83d51.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_83d51.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_83d51.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_83d51.dir/testCCompiler.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/CMakeTmp/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/CMakeTmp/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/CMakeTmp/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/CMakeTmp/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/CMakeTmp/cmTC_83d51" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/CMakeTmp/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/CMakeTmp/testCCompiler.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Release/CMakeFiles/CMakeTmp/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Release/CMakeFiles/CMakeTmp/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Release/CMakeFiles/CMakeTmp/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Release/CMakeFiles/CMakeTmp/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_c904e.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_c904e.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_c904e.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_c904e.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_c904e.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_c904e.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_c904e.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_c904e.dir/testCCompiler.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Release/CMakeFiles/CMakeTmp/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Release/CMakeFiles/CMakeTmp/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Release/CMakeFiles/CMakeTmp/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Release/CMakeFiles/CMakeTmp/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Release/CMakeFiles/CMakeTmp/cmTC_c904e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Release/CMakeFiles/CMakeTmp/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Release/CMakeFiles/CMakeTmp/testCCompiler.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/file.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/Sparky.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/Sparky.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/Sparky.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/Sparky.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/Sparky.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/Sparky.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/Sparky.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/CMakeFiles/Sparky.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/Sparky" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/Sparky" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/src/Maths/CMakeFiles/Sparky_maths.dir/matrix4.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/src/Maths/CMakeFiles/Sparky_maths.dir/matrix4.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/src/Maths/libSparky_maths.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/src/Maths/libSparky_maths.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/src/Graphics/CMakeFiles/Sparky_graphics.dir/window.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/src/Graphics/CMakeFiles/Sparky_graphics.dir/window.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/src/Graphics/libSparky_graphics.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/src/Graphics/libSparky_graphics.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/src/Maths/CMakeFiles/Sparky_maths.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/src/Maths/CMakeFiles/Sparky_maths.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Maths/matrix4.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Maths/matrix4.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Debug/utility_methods.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Debug/utility_methods.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphics/window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphics/window.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphics/window.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphics/window.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +78,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -46,8 +94,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cmake-build-debug/Debug" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Utils" />
     <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.profiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Utils" />
+    </key>
   </component>
   <component name="RunManager" selected="CMake Application.Sparky">
     <configuration name="Sparky" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sparky" TARGET_NAME="Sparky" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sparky" RUN_TARGET_NAME="Sparky">
@@ -61,6 +114,11 @@
       </method>
     </configuration>
     <configuration name="Sparky_maths" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sparky" TARGET_NAME="Sparky_maths" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -89,6 +147,7 @@
       <workItem from="1613310718420" duration="8605000" />
       <workItem from="1613401916240" duration="3720000" />
       <workItem from="1613500939552" duration="937000" />
+      <workItem from="1613589957121" duration="4388000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed and understood Cmake finally">
       <created>1613250592581</created>

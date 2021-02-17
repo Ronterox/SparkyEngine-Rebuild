@@ -55,7 +55,7 @@ namespace Sparky::Graphics
             return false;
         }
 
-        m_Window = glfwCreateWindow(m_Width, m_Height, m_Title, NULL, NULL);
+        m_Window = glfwCreateWindow(m_Width, m_Height, m_Title, nullptr, nullptr);
 
         if (!m_Window)
         { LOG("Failed to create GLFW Window name: " << m_Title << "!");
@@ -110,7 +110,7 @@ namespace Sparky::Graphics
         return button <= MAX_BUTTONS && m_MouseButtons[button];
     }
 
-    void Window::getMousePosition(double &x, double &y)
+    void Window::getMousePosition(double &x, double &y) const
     {
         x = m_MouseX;
         y = m_MouseY;

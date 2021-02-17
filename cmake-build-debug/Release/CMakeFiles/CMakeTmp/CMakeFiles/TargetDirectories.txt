@@ -1,0 +1,3 @@
+/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Release/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir
+/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Release/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir
+/home/rontero/Documents/CLionProjects/Sparky/cmake-build-debug/Release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_c904e.dir

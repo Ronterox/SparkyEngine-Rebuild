@@ -1,11 +1,15 @@
 #include "src/Graphics/window.h"
-#include "src/Debug/logSystem.h"
 #include "src/Maths/maths.h"
+#include "src/Debug/utility_methods.h"
+#include "src/Utils/file.h"
 
 int main()
 {
     using namespace Sparky::Graphics;
     using namespace Sparky::Maths;
+    using namespace Sparky::Utils;
+
+    LOG(readFile("/home/rontero/Documents/CLionProjects/Sparky/main.cpp"));
 
     Window window("FIRST WINDOW", 960, 640);
 
@@ -18,7 +22,7 @@ int main()
     Matrix4 position = Matrix4::translation(Vector3(2.0f,3.0f,4.0f));
     position *= Matrix4::identity();
 
-    LOG(&position.columns[4].x);
+    LOG(&position.columns[3].x);
     LOG(&position.elements[12]);
 
     while (!window.closed())

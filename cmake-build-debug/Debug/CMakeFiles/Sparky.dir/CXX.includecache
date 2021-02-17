@@ -9,14 +9,22 @@
 /home/rontero/Documents/CLionProjects/Sparky/main.cpp
 src/Graphics/window.h
 /home/rontero/Documents/CLionProjects/Sparky/src/Graphics/window.h
-src/Debug/logSystem.h
-/home/rontero/Documents/CLionProjects/Sparky/src/Debug/logSystem.h
 src/Maths/maths.h
 /home/rontero/Documents/CLionProjects/Sparky/src/Maths/maths.h
+src/Debug/utility_methods.h
+/home/rontero/Documents/CLionProjects/Sparky/src/Debug/utility_methods.h
+src/Utils/file.h
+/home/rontero/Documents/CLionProjects/Sparky/src/Utils/file.h
+filesystem
+-
 
 /home/rontero/Documents/CLionProjects/Sparky/src/Debug/logSystem.h
 iostream
 -
+
+/home/rontero/Documents/CLionProjects/Sparky/src/Debug/utility_methods.h
+logSystem.h
+/home/rontero/Documents/CLionProjects/Sparky/src/Debug/logSystem.h
 
 /home/rontero/Documents/CLionProjects/Sparky/src/Graphics/window.h
 GL/glew.h
@@ -50,5 +58,9 @@ iostream
 
 /home/rontero/Documents/CLionProjects/Sparky/src/Maths/vector4.h
 iostream
+-
+
+/home/rontero/Documents/CLionProjects/Sparky/src/Utils/file.h
+string
 -
 
