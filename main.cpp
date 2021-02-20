@@ -1,29 +1,13 @@
 #include "src/Graphics/window.h"
-#include "src/Maths/maths.h"
 #include "src/Debug/utility_methods.h"
-#include "src/Utils/file.h"
 
 int main()
 {
     using namespace Sparky::Graphics;
-    using namespace Sparky::Maths;
-    using namespace Sparky::Utils;
-
-    LOG(readFile("/home/rontero/Documents/CLionProjects/Sparky/main.cpp"));
 
     Window window("FIRST WINDOW", 960, 640);
 
     glClearColor(.2f, .3f, .8f, 1.0f);
-
-    GLuint vao;
-    glGenVertexArrays(1, &vao);
-    glBindVertexArray(vao);
-
-    Matrix4 position = Matrix4::translation(Vector3(2.0f,3.0f,4.0f));
-    position *= Matrix4::identity();
-
-    LOG(&position.columns[3].x);
-    LOG(&position.elements[12]);
 
     while (!window.closed())
     {

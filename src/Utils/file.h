@@ -4,18 +4,18 @@
 
 namespace Sparky::Utils
 {
-    std::string readFile(const char* filePath)
+    std::string readFile(const char *filePath)
     {
-        FILE* file = fopen(filePath, "rt");
+        FILE *file = fopen(filePath, "rt");
 
-        if(!file) return std::string("File on the specified path wasn't available! Path: ") + filePath;
+        if (!file) return std::string("File on the specified path wasn't available! Path: ") + filePath;
 
-        fseek(file,0, SEEK_END);
+        fseek(file, 0, SEEK_END);
         unsigned long length = ftell(file);
 
-        char* data = new char[length + 1];
+        char *data = new char[length + 1];
 
-        fseek(file,0, SEEK_SET);
+        fseek(file, 0, SEEK_SET);
         fread(data, 1, length, file);
 
         fclose(file);

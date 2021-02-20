@@ -5,10 +5,5 @@ CMakeFiles/Sparky.dir/main.cpp.o: ../../main.cpp
 CMakeFiles/Sparky.dir/main.cpp.o: ../../src/Debug/logSystem.h
 CMakeFiles/Sparky.dir/main.cpp.o: ../../src/Debug/utility_methods.h
 CMakeFiles/Sparky.dir/main.cpp.o: ../../src/Graphics/window.h
-CMakeFiles/Sparky.dir/main.cpp.o: ../../src/Maths/maths.h
-CMakeFiles/Sparky.dir/main.cpp.o: ../../src/Maths/matrix4.h
-CMakeFiles/Sparky.dir/main.cpp.o: ../../src/Maths/vector2.h
-CMakeFiles/Sparky.dir/main.cpp.o: ../../src/Maths/vector3.h
-CMakeFiles/Sparky.dir/main.cpp.o: ../../src/Maths/vector4.h
 CMakeFiles/Sparky.dir/main.cpp.o: ../../src/Utils/file.h
 
